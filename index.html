@@ -2,23 +2,43 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <title>My Portfolio</title>
 </head>
 
 <body>
-    <div class="nav"></div>
-    <h1 id="heading">Bharat Kumar Mali</h1>
-    <p>Welcome to my site</p>
+    <div data-role="page" data-theme="a" id="home">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>
+           <h1></h1>
+           <a href="#menu" class="ui-btn ui-icon-grid ui-btn-icon-notext ui ui-corner-all"></a>
+        </div>
+        <div role="main" class="ui-content">
+            <h2>Bharat Kumar Mali</h2>
+        </div>
+        <div data-role="footer">
+            <h1></h1>
+        </div>
 
-    <h2>My name is bharat</h2>
-    <p>Git is a version control system that allows you to track changes in your code over time. It's widely used by
-        developers to collaborate on projects and manage different codes. To begin with, you need to install Git on your
-        computer. You can use Git Bash or GitHub Desktop to interact with Git. Follow these basic steps to learn Git:
-    </p>
-    <script src="./JS/main.js"></script>
+    </div>
+
+    <div data-role="page" data-dialog="true" data-close-btn="left" data-transition="slidedown" id="menu">
+      <div data-role="header">
+        <h1>Menu</h1>
+      </div>
+      <div data-role="content">
+         <ul data-role="listview">
+             <li><a href="#home">Home</a></li>
+             <li><a href="#about">About</a></li>
+         </ul>
+      </div>
+    </div>
+
+   
 </body>
 
 </html>
