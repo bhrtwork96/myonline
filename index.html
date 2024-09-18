@@ -11,15 +11,17 @@
 </head>
 
 <body>
+    <!-- Main Page -->
     <div data-role="page" data-theme="a" id="home">
         <div data-role="header">
             <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>
-           <h1></h1>
-           <a href="#menu" class="ui-btn ui-icon-grid ui-btn-icon-notext ui ui-corner-all"></a>
+            <h1></h1>
+            <a href="./pages/menu.html" data-prefetch="true"
+                class="ui-btn ui-icon-grid ui-btn-icon-notext ui ui-corner-all"></a>
         </div>
         <div role="main" class="ui-content">
             <ul data-role="listview">
-                <li><a href="pages/portfolio.html" data-prefetch="true">My Portfolio</a></li>
+                <li><a href="#portfolio">My Portfolio</a></li>
             </ul>
         </div>
         <div data-role="footer">
@@ -28,19 +30,217 @@
 
     </div>
 
-    <div data-role="page" data-dialog="true" data-close-btn="left" data-transition="slidedown" id="menu">
-      <div data-role="header">
-        <h1>Menu</h1>
-      </div>
-      <div data-role="content">
-         <ul data-role="listview">
-             <li><a href="#home">Home</a></li>
-             <li><a href="pages/portfolio.html" data-prefetch="ture">My Portfolio</a></li>
-         </ul>
-      </div>
+    <!-- Portfolio Page -->
+
+    <div data-role="page" id="portfolio">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>
+            <h1></h1>
+            <a href="./pages/menu.html" class="ui-btn ui-icon-grid ui-btn-icon-notext ui ui-corner-all"></a>
+        </div>
+        <div role="main" class="ui-content">
+            <div>
+                <h1 id="name">Bharat Mali</h1>
+                <span id="work">Lead Production</span>
+                <p id="summary">Dedicated and highly organized professional with extensive experience in production
+                    store
+                    management, inventory control, and scrap management. Seeking a challenging position where I can
+                    leverage
+                    my skills and expertise to contribute to the efficient operation of production, the supply chain and
+                    inventory management processes</p>
+            </div>
+            <ul data-role="listview">
+                <li><a href="#workexprience">WORK EXPERIENCE</a></li>
+                <li><a href="#port-skill">SKILLS</a></li>
+                <li><a href="">EDUCATION</a></li>
+                <li><a href="">CERTIFICATIONS</a></li>
+                <li><a href="">ACHIEVEMENTS </a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
     </div>
 
-   
+    <!-- Portfolio - work experience page -->
+    <div data-role="page" id="workexprience">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>
+            <h1></h1>
+            <a href="./pages/menu.html" class="ui-btn ui-icon-grid ui-btn-icon-notext ui ui-corner-all"></a>
+        </div>
+        <div role="main" class="ui-content">
+            <div>
+                <h4>WORK EXPERIENCE</h4>
+                <hr>
+                <h4>Assistant Manager-Store</h4>
+                <p><b>New Swan Mutitech Ltd| Vithalapur |Feb-2024 – May-2024</b></p>
+                <ul>
+                    <li>Managed materials planning and inventory control functions, ensuring optimal stock levels of
+                        daily consumable for production requirements.</li>
+                    <li>Maintained all necessary documentation in stores, including Goods Receipt Notes (GRN), issue
+                        notes, and stock transfers, ensuring compliance with record-keeping standards.
+                    </li>
+                    <li>Highlighted abnormal consumption patterns and identified dead inventory, providing valuable
+                        insights to management for decision-making.
+                    </li>
+                    <li>Prepared daily consumption reports, tracked pending GRNs, and ensured approval of GRNs to
+                        maintain accurate inventory records.
+                    </li>
+                    <li>Demonstrated proficiency in SAP software, utilizing various transaction codes for material
+                        analysis, stock overview, and supply chain management.
+                    </li>
+                    <li>Conducted transfer postings, material movements, and maintained material document lists to track
+                        inventory changes.
+                </ul>
+            </div>
+
+            <div>
+                <h4>Assistant Manager-SCM</h4>
+                <p><b>Sterlite Power Transmission Ltd| Jharsuguda | 2020 – 2024
+                    </b></p>
+                <ul>
+
+                    <li>Managed materials planning and inventory control functions, ensuring optimal stock levels for
+                        production requirements.
+                    </li>
+                    <li>Enforced a strict FIFO (First-In, First-Out) system for materials issuance to production,
+                        minimizing wastage and ensuring product quality.
+                    </li>
+                    <li>Conducted fast/slow/non-moving items analysis, reducing excess inventory and storage costs.
+                    </li>
+                    <li>Maintained all necessary documentation in stores, including Goods Receipt Notes (GRN), issue
+                        notes, and stock transfers, ensuring compliance with record-keeping standards.
+                    </li>
+                    <li>Highlighted abnormal consumption patterns and identified dead inventory, providing valuable
+                        insights to management for decision-making.
+                    </li>
+                    <li>Collaborated with the Production Planning and Control (PPC) department to plan raw materials and
+                        packing materials based on production schedules.
+                    </li>
+                    <li>Prepared weekly and monthly consumption reports, tracked pending GRNs, and ensured approval of
+                        GRNs to maintain accurate inventory records.
+                    </li>
+                    <li>Led monthly Physical Verification (PV) audits to validate inventory accuracy and identify
+                        discrepancies.
+                    </li>
+                    <li>Managed scrap-related activities, including auctions and disposals, to maximize returns on
+                        obsolete materials.
+                    </li>
+                    <li>Tracked Material Requirements Planning (MRP) materials and ensured their availability for
+                        production.
+                    </li>
+                    <li>Demonstrated proficiency in SAP software, utilizing various transaction codes for material
+                        analysis, stock overview, and supply chain management.
+                    </li>
+                    <li>Conducted transfer postings, material movements, and maintained material document lists to track
+                        inventory changes.
+                    </li>
+                    <li>Facilitate inventory transactions and provide daily MIS reports to enable cross-functional
+                        decision-making.
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4>Production Officer- Production</h4>
+                <p>Sterlite Power Transmission Ltd| Silvassa | 2011 – 2020</p>
+                <ul>
+
+                    <li>Assist in the day-to-day production activities, including setup, operation, and monitoring of
+                        machinery and equipment.
+                    </li>
+                    <li>Conduct quality checks at different stages of the production process to ensure products meet
+                        specified standards. Report and address any deviations promptly.
+                    </li>
+                    <li>Assist in maintaining accurate inventory records, including tracking raw materials,
+                        work-in-progress, and finished goods. Notify relevant parties of material shortages or excesses.
+                    </li>
+                    <li>Adhere to all safety protocols and guidelines, including wearing appropriate personal protective
+                        equipment (PPE) and participating in safety training programs.
+                    </li>
+                    <li>Collaborate with the production team to identify and implement process improvements, aiming to
+                        enhance efficiency, reduce waste, and optimize resource utilization.
+                    </li>
+                    <li>Complete production-related documentation accurately and in a timely manner. This may include
+                        production reports, quality records, and maintenance logs.
+                    </li>
+                    <li>Execution and implementation of project and process for achieve organization goal.
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer">
+                <h1></h1>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio - skill -->
+    <div data-role="page" id="port-skill">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>
+            <h1></h1>
+            <a href="./pages/menu.html" data-prefetch="true"
+                class="ui-btn ui-icon-grid ui-btn-icon-notext ui ui-corner-all"></a>
+        </div>
+
+        <div role="main" class="ui-content">
+            <div>
+                <h4>SKILLS</h4>
+                <hr>
+                <ul data-role="listview">
+                    <li>Inventory Analysis</li>
+                    <li>Documentation Management</li>
+                    <li>SAP MM</li>
+                    <li>Good Communication Skill</li>
+                    <li>Team Collaboration</li>
+                    <li>Scrap Management</li>
+                    <li>MS Office</li>
+                    <li>Programing language</li>
+                    <li>Web devlopment</li>
+                    <li>JavaScript, Python, SQL etc.</li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div data-role="footer">
+            <h1></h1>
+        </div>
+
+    </div>
+
+    <!-- Portfolio - Education -->
+    <div data-role="page" id="port-edu">
+        <div data-role="header"></div>
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>
+            <h1></h1>
+            <a href="./pages/menu.html" data-prefetch="true"
+                class="ui-btn ui-icon-grid ui-btn-icon-notext ui ui-corner-all"></a>
+        </div>
+
+        <div role="main" class="ui-content">
+            <div>
+                <h4>EDUCATION</h4>
+                <hr>
+                <ul data-role="listview">
+                    <li>Inventory Analysis</li>
+                    <li>Documentation Management</li>
+                    <li>SAP MM</li>
+                    <li>Good Communication Skill</li>
+                    <li>Team Collaboration</li>
+                    <li>Scrap Management</li>
+                    <li>MS Office</li>
+                    <li>Programing language</li>
+                    <li>Web devlopment</li>
+                    <li>JavaScript, Python, SQL etc.</li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div data-role="footer">
+            <h1></h1>
+        </div>
+
+    </div>
+
 </body>
 
 </html>
